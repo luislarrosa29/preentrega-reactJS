@@ -1,5 +1,7 @@
-import './NavComponente.css';
-import BotonComponente from "./BotonComponente";
+import './NavComponente.css'
+import BotonComponente from "./BotonComponente"
+import CartWidget from './CartWidget'
+
 
 export default function NavComponente(){
     return (
@@ -8,6 +10,5 @@ export default function NavComponente(){
         <BotonComponente text= "Remeras" color="Red"/>
         <BotonComponente text= "Pantalones" color="Green"/>
         <BotonComponente text= "Buzos" color="Yellow"/></nav>
-
         </>)
 }
